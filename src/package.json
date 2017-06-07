@@ -1,0 +1,26 @@
+{
+  "name": "@huajie-ng/hanweb-jssdk",
+  "version": "2.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/repo"
+  },
+  "author": {
+    "name": "杨逸",
+    "email": "iygnay233@outlook.com"
+  },
+  "keywords": [
+    "angular"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/username/repo/issues"
+  },
+  "module": "hanweb-jssdk.js",
+  "typings": "hanweb-jssdk.d.ts",
+  "peerDependencies": {
+    "@angular/core": "^4.0.0",
+    "rxjs": "^5.1.0",
+    "zone.js": "^0.8.4"
+  }
+}
