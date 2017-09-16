@@ -1,6 +1,6 @@
 
 import { NgModule } from '@angular/core';
-import { HanwebJssdk } from './hanweb_jssdk';
+import { HanwebJssdk } from './services/hanweb_jssdk';
 
 @NgModule({
     imports: [],

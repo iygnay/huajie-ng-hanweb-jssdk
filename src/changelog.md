@@ -1,4 +1,14 @@
-﻿# 2.0.0 (2017-06-07)
+﻿# 3.0.0 (2017-09-16)
+
+## breaking changes
+
+1. 删除了 `getUserInfo` 方法和对应的返回类型. 请使用`getUserId`代替.
+
+2. 重命名`HANWEB_JSSDK_GLOBAL_CONFIG`为`HANWEB_JSSDK_CONFIG`.
+
+3. 重构`HanwebJssdkConfig`的`mockLocation`为`mock.location`, 重构`mockUserInfo`为`mock.userId`.
+
+# 2.0.0 (2017-06-07)
 
 ## breaking changes
 

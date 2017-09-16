@@ -105,7 +105,7 @@ gulp.task('rollup:umd', function () {
 
       // Bundle's entry point
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#entry
-      entry: `${buildFolder}/index.js`,
+      input: `${buildFolder}/index.js`,
 
       // Allow mixing of hypothetical and actual files. "Actual" files can be files
       // accessed by Rollup or produced by plugins further down the chain.
@@ -131,11 +131,12 @@ gulp.task('rollup:umd', function () {
       // The name to use for the module for UMD/IIFE bundles
       // (required for bundles with exports)
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#modulename
-      moduleName: 'huajieNg.hanwebJssdk',
+      name: 'huajieNg.hanwebJssdk',
 
       // See https://github.com/rollup/rollup/wiki/JavaScript-API#globals
       globals: {
-        typescript: 'ts'
+        'typescript': 'ts',
+        '@angular/core': 'ng.core',
       }
 
     }))
