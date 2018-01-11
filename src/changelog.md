@@ -1,4 +1,10 @@
-﻿# 3.0.0 (2017-09-16)
+﻿# 3.0.1 (2018-01-11)
+
+## breaking changes
+
+1. `HANWEB_JSSDK_CONFIG`的类型由`OpaqueToken`修正为`InjectionToken`.
+
+# 3.0.0 (2017-09-16)
 
 ## breaking changes
 

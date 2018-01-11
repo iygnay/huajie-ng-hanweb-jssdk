@@ -1,8 +1,8 @@
-import { OpaqueToken } from '@angular/core';
+import { InjectionToken } from '@angular/core';
 import { LocationInfo } from '../models/location_info';
 import { UserId } from '../models/user-id';
 
-export const HANWEB_JSSDK_CONFIG = new OpaqueToken('HANWEB_JSSDK_CONFIG');
+export const HANWEB_JSSDK_CONFIG = new InjectionToken('HANWEB_JSSDK_CONFIG');
 
 /**
  * HanwebJssdk配置
